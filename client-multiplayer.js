@@ -52,9 +52,9 @@ window.addEventListener("load",
 		try
 		{
 			if (typeof MozWebSocket !== "undefined")
-				Socket = new MozWebSocket("ws://sergiok20.home.kg:80");
+				Socket = new MozWebSocket("ws://mipapaingeniero.awiki.org:29001");
 			else if (typeof WebSocket !== "undefined")
-				Socket = new WebSocket("ws://sergiok20.home.kg:80");
+				Socket = new WebSocket("ws://mipapaingeniero.awiki.org:29001");
 			else
 			{
 				Socket = null;
